@@ -12,6 +12,10 @@
     - Dynamic Data Structures
         - Linked Lists
             - Implementation
+            - Primitives
+                - Add
+                - Remove
+                - Search
             - Specializations
                 - Doubly-linked lists
                 - Circularly linked lists
@@ -22,36 +26,89 @@
 
     - Stacks
         - Last in, First out (LIFO) structure
-        - Implementation: Array based
-        - Implementation: Linked List based
+        - Implementations
+            - Array based
+            - Linked List based
+        - Primitives
+            - Push
+            - Pop
     - Queues
         - First in, First out (FIFO) structure
-        - Implementation: Array based
-        - Implementation: Linked List based
+        - Implementations
+            - Array based
+            - Linked List based
+        - Primitives
+            - Add (Enqueue)
+            - Remove (Dequeue)
         - Specializations:
-            - Double-ended queue (deque)
+            - Double-ended queue (aka Deque)
             - Priority queue
     - Trees
         - Hierarchical structure
         - Implementation
+        - Primitives
+            - Add
+            - Remove
+            - Search
         - Specializations:
             - Binary Trees
             - 2-3 Trees
             - B-trees
             - Red-black trees
-        - Tries
-            - prefix tree
+            - Quad trees (spatial representation)
+            - Tries
+                - prefix tree
     - Graphs
         - Provides abstract connection between data
-        - Implementation: Adjacency list
-        - Implementation: Adjacency matrix
+        - Implementations
+            - Adjacency list
+            - Adjacency matrix
+        - Primitives
+            - Add
+            - Remove
+            - Search
     - Hash tables
         - Uses functions to implement mapping
-        - Implementation: Array based collision handling
-        - Implementation: Linked list based collision handling
-        - Implementation: Rehashing collision handling
+        - Implementations
+            - Array based collision handling
+            - Linked list based collision handling
+            - Rehashing collision handling
+        - Primitives
+            - Add
+            - Remove
+            - Search
     - Sets
         - Stores unique unordered data in a collection
         - Implementation
+        - Primitives
+            - Add
+            - Remove
+            - Membership/subset
+            - Set operations (union, intersect, difference)
 
 - Algorithms
+    - Computational Complexity
+        - Big-O Notation
+            - Best/Average/Worst cases (Big-Omega and Big-Theta)
+        - Deterministic and non-deterministic algorithms
+            - P v. NP
+    - Searching
+        - Linear search through array/linked list
+        - Tree search
+    - Sorting
+        - Bubble Sort
+        - Insertion Sort
+        - Quick Sort
+        - Merge Sort
+    - Graph algoritms
+        - Shortest Path with Djikstra's Algorithm
+        - Shortest Path with A-Star
+        - Cycle detection
+    - Text algorithms
+        - Expression parsing (shunting yard algorithm)
+        - Longest common substring
+        - String matching (regular expressions)
+        - Spell checking
+        - Data compression
+    - Graphical Algorithms
+        - Area filling
