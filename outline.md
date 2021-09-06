@@ -21,7 +21,7 @@
                 - Circularly linked lists
                 - Skip lists
 
-- Abstract Data Structures 
+- Abstract Data Structures
     - Arrays and linked lists are the basis for building these more complex data structures
 
     - Stacks
@@ -58,6 +58,8 @@
             - Quad trees (spatial representation)
             - Tries
                 - prefix tree
+            - Heaps
+              - Min/Max heap
     - Graphs
         - Provides abstract connection between data
         - Implementations
@@ -85,30 +87,40 @@
             - Remove
             - Membership/subset
             - Set operations (union, intersect, difference)
+        - Specializations
+            - Disjoint-Set
+                - Stores collection of disjoint, non-overlapping sets
 
-- Algorithms
-    - Computational Complexity
-        - Big-O Notation
-            - Best/Average/Worst cases (Big-Omega and Big-Theta)
-        - Deterministic and non-deterministic algorithms
-            - P v. NP
-    - Searching
-        - Linear search through array/linked list
-        - Tree search
-    - Sorting
-        - Bubble Sort
-        - Insertion Sort
-        - Quick Sort
-        - Merge Sort
-    - Graph algoritms
-        - Shortest Path with Djikstra's Algorithm
-        - Shortest Path with A-Star
-        - Cycle detection
-    - Text algorithms
-        - Expression parsing (shunting yard algorithm)
-        - Longest common substring
-        - String matching (regular expressions)
-        - Spell checking
-        - Data compression
-    - Graphical Algorithms
-        - Area filling
+
+## Algorithms
+
+- Computational Complexity
+    - Big-O Notation
+        - Best/Average/Worst cases (Big-Omega and Big-Theta)
+    - Deterministic and non-deterministic algorithms
+        - P v. NP
+- Searching
+    - Linear search through array/linked list
+    - Depth-First Search + applications
+    - Breadth-First Search + applications
+    - Tree search
+      - pre-order
+      - in-order
+      - post-order
+- Sorting
+    - Bubble Sort
+    - Insertion Sort
+    - Quick Sort
+    - Merge Sort
+- Graph algorithms
+    - Shortest Path with Djikstra's Algorithm
+    - Shortest Path with A-Star
+    - Cycle detection
+- Text algorithms
+    - Expression parsing (shunting yard algorithm)
+    - Longest common substring
+    - String matching (regular expressions)
+    - Spell checking
+    - Data compression
+- Graphical Algorithms
+    - Area filling
