@@ -34,16 +34,13 @@ After your new branch and PR have been created, follow these steps to edit it lo
 
 You can check in changes to this branch as you see fit.
 
-When you are ready to merge the branch to master, follow these steps:
+When you are ready to merge the branch to master, you'll need a reviewer. If you don't have a reviewer, ask for one in the #data-structures-and-algorithms channel in Slack. Once you have a willing reviewer, follow these steps:
 
-1. If you have a reviewer:
-    a. Notify them you are ready for review, and get an ETA from them when to expect comment.
-    b. Notify the #data-structures-and-algorithms channel in Slack.
-    c. Set the status of the chapter to `In Review` in the Google Drive tracking sheet.
-2. If you don't have a reviewer:
-    a. Ask for one in the #data-structures-and-algorithms channel in Slack.
-3. When the reviewer indicates commentary is done, respond and revise as necessary.
-4. When the reviewer indicates the content is ready, you can merge your branch to master.
-    a. Remove the branch when the merge is complete.
+1. Notify them you are ready for review, and get an ETA from them when to expect comments.
+2. Notify the #data-structures-and-algorithms channel in Slack.
+3. Set the status of the chapter to `In Review` in the Google Drive tracking sheet.
+4. When the reviewer indicates commentary is done, respond and revise as necessary.
+5. When the reviewer indicates the content is ready, you can merge your branch to master.
+6. Remove the branch when the merge is complete.
 
 Mechanisms to enforce this flow are currently TBD.
