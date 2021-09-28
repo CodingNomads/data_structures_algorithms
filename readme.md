@@ -4,7 +4,7 @@ A number of CodingNomads mentors and instructors are working on this course. Thi
 
 ## Project Structure
 
-The outline of the course is given in outline.md.
+The outline of the course is given in [outline.md](outline.md).
 
 Each major section is given a top level folder (Intro, Data Structures, Algorithms). Under each section are a number of chapters, one for each major data structure or set of algorithms. Under each chapter folder are the documents for each chapter.
 
