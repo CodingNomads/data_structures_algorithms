@@ -8,7 +8,7 @@ The outline of the course is given in outline.md.
 
 Each major section is given a top level folder (Intro, Data Structures, Algorithms). Under each section are a number of chapters, one for each major data structure or set of algorithms. Under each chapter folder are the documents for each chapter.
 
-Writing guidelines can be found in guidelines.md.
+Writing guidelines can be found in [guidelines.md]().
 
 Check-in and other guidelines can be found in this document.
 
