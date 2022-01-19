@@ -16,31 +16,20 @@ Check-in and other guidelines can be found in this document.
 
 Each author should follow these steps to author new content:
 
-1. In GitHub, navigate to the folder which will contain the content.
-2. Click on "Create New File".
-3. Name the file accordingly and add some temporary content.
-4. Create a pull request to add the new file to the repo and allow comments. 
- a. While creating the PR, select the **Create a new branch for this commit and start a pull request** option.
- b. Use the name of the file you are creating as the branch name. You can add `-1`, `-2`, etc. to differentiate from any earlier branches.
-5. Add a link to the PR in the Google Drive tracking sheet, and post that link to the #data-structures-and-algorithms channel in Slack.
-
-After your new branch and PR have been created, follow these steps to edit it locally:
-
-1. On your machine, navigate to the git folder holding the CodingNomads/data_structures_algorithms content.
-2. Execute `git pull --rebase` to get the latest content, including your new branch.
-3. Execute `git checkout <branch>`, substituting the branch you created in step 4b above for `<branch>`.
-4. In the Google Drive tracking sheet, set the status of the chapter to `In Progress`, and update the start and done dates.
-5. Fire up your favorite editor and get writing!
-
-You can check in changes to this branch as you see fit.
+1. Clone this repository to their local machine, ie `git clone git@github.com:CodingNomads/data_structures_algorithms.git`
+2. `cd` into the new directory you just cloned on your local machine, ie `cd data_structures_algorithms`
+3. Create and checkout a new local branch such as `brandon_hash_tables`, ie `git checkout -b brandon_hash_tables`
+4. Edit the appropriate folders and files for your section in your IDE of choice
+5. Commit these changes to your local machine - please do not commit and unnecessary files
+6. Push these changes to your remote branch, ie `git push origin `brandon_hash_tables`
+7. When ready, create a pull request to merge your branch into the main branch
 
 When you are ready to merge the branch to master, you'll need a reviewer. If you don't have a reviewer, ask for one in the #data-structures-and-algorithms channel in Slack. Once you have a willing reviewer, follow these steps:
 
 1. Notify them you are ready for review, and get an ETA from them when to expect comments.
 2. Notify the #data-structures-and-algorithms channel in Slack.
-3. Set the status of the chapter to `In Review` in the Google Drive tracking sheet.
+3. Set the status of the chapter to `In Review` in the Google Drive [tracking sheet](https://docs.google.com/spreadsheets/d/1RVGPeq4Xpv01AsXPe8NgKdCsKrqURgGhft1EXuztWmQ/edit#gid=0).
 4. When the reviewer indicates commentary is done, respond and revise as necessary.
-5. When the reviewer indicates the content is ready, you can merge your branch to master.
+5. When the reviewer indicates the content is ready, the admins will merge your PR.
 6. Remove the branch when the merge is complete.
 
-Mechanisms to enforce this flow are currently TBD.
